@@ -1,0 +1,89 @@
+.box {
+    width: 40vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 75vh;
+}
+
+.box h1 {
+    color: rgb(105, 4, 173);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.challengeBox img {
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+#align {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.traco {
+    height: 3px;
+    width: 70%;
+    backGround-color: rgb(212, 211, 211);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btnSucces {
+    background-color: rgb(3, 187, 3);
+    padding: 5px;
+    height: 4rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+
+.btnFailed {
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    height: 4rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+.challengeAlreadyExits {
+    padding: 10px 10px 10px;
+}
+.challengeAlreadyExits img {
+    margin: auto;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.challengeAlreadyExits strong {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}

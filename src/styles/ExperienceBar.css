@@ -1,0 +1,46 @@
+.experience-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+    width: 80vw;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    width: 100vw;
+  }
+  
+  .experience-bar span {
+    font-size: 1rem;
+  }
+  
+  .experience-bar > div {
+    height: 4px;
+    
+    position: relative;
+    
+    margin: 0 1.5rem;
+    
+    flex: 1;
+    
+    border-radius: 4px;
+    background: rgb(214, 214, 214);
+  }
+  
+  .experience-bar > div > div {
+    height: 4px;
+    
+    border-radius: 4px;
+    background: rgb(8, 238, 8);
+  }
+  
+  span.current-experience {
+    position: absolute;
+    top: 12px;
+    
+    transform: translateX(-50%);
+  }

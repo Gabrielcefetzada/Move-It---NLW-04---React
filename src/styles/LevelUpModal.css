@@ -1,0 +1,42 @@
+.containerEmbacado {
+     position: fixed;
+     bottom: 0;
+     top: 0;
+     right: 0;
+     left: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(221, 217, 217);   
+}
+
+.containerModal {
+    width: 350px;
+    height: 370px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Courier New', Courier, monospace;
+     position: relative;
+     text-align: center;
+     box-shadow: 0 0 60px rgb(0, 0, 0, 0.5);
+}
+
+.containerModal h1 {
+    color: rgb(105, 4, 173);
+    font-size: 4em;
+}
+
+.containerModal p, .containerModal strong {
+    font-size: 2rem;
+}
+
+.containerModal button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: transparent;
+    border: 0;
+}
